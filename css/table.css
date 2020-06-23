@@ -1,0 +1,32 @@
+.pt-table-container {
+  display: flex;
+}
+.pt-table-container .pt-table-column {
+  text-align: center;
+  padding: 2em;
+  border: 3px solid #EAEAEA;
+  width: 270px;
+}
+.pt-table-container .pt-table-column:nth-child(2) {
+  border-width: 3px 0;
+}
+.pt-table-container .pt-table-column .pt-table-price-header {
+  background-color: #FAFAFA;
+  margin: -2em;
+  margin-bottom: 2em;
+  padding-bottom: 2em;
+}
+.pt-table-container .pt-table-column button {
+  /* RESET */
+  outline: none;
+  border: 0;
+  /* STYLE */
+  background-color: darkorange;
+  padding: 1em;
+  color: white;
+}
+.pt-table-container .pt-table-column .pt-table-feature {
+  padding: .75em;
+  margin: 0.25em 0;
+  background-color: #EAEAEA;
+}

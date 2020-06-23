@@ -1,0 +1,13 @@
+@import "typeface.css";
+@import "table.css";
+
+html, body, p, h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-size: 16px;
+  position: relative;
+  padding: 10% 15%;
+}
